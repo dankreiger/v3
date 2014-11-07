@@ -1,5 +1,4 @@
 require 'sinatra'
-gem 'rack-test'
 
 get '/' do
   redirect '/dan.html' 
