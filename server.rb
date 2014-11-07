@@ -1,9 +1,10 @@
 require 'sinatra'
+gem 'rack-test'
 
 get '/' do
-  redirect '/dan.txt' 
+  redirect '/dan.html' 
 end
 
-get '/dan.txt' do
-	File.open("dan.txt")
-end
+# get '/dan.html' do
+# 	File.open("dan.html")
+# end
