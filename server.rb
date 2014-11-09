@@ -1,18 +1,8 @@
 require 'sinatra'
 
-# get '/' do
-#   redirect '/index.html' 
-# end
-
-# get '/dan.html' do
-# 	File.open("dan.html")
-# end
+set :protection, :except => :frame_options
 
 get '/' do
   File.read(File.join('public', 'index.html'))
-end
-
-configure do
-	set :protection, except: [:frame_options]
 end
 
