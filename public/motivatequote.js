@@ -130,6 +130,11 @@ quotes[63]='The pessimist sees difficulty in every opportunity. The optimist see
 
 quotes[64]='Happiness is a warm puppy.<br><small>Charles M. Schultz</small>'
 
+quotes[65]="Don't be so humble - you are not that great.<br><small>Golda Meir</small>"
+
+quotes[66]="Gesund sein ist so schön, wenn man nicht allein sein muss.<br><small>Sigmund Freud</small>"
+
+
 var whichquote=Math.floor(Math.random()*(quotes.length))
 document.write(quotes[whichquote])
 
