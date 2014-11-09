@@ -18,6 +18,10 @@ body {
 	text-decoration: none;
 }
 
+.content .headline p a {
+	text-decoration: none;
+}
+
 .vorlage p a {
 	text-decoration: none;
 }
