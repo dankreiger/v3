@@ -8,7 +8,11 @@ require 'sinatra'
 # 	File.open("dan.html")
 # end
 
- get '/' do
-    File.read(File.join('public', 'index.html'))
- end
+get '/' do
+  File.read(File.join('public', 'index.html'))
+end
+
+configure do
+	set :protection, except: [:frame_options]
+end
 
