@@ -40,11 +40,6 @@ body {
 	text-decoration: none;
 }
 
-.music_player {
-	margin-top: 10px;
-}
-
-
 
 /*project euler indentation*/
 .cond {
@@ -133,10 +128,6 @@ code {
 	color: #EB6841;
 }
 
-.music_player {
-	margin-bottom: -100px;
-}
-
 .contact {
 	text-align: center;
 	text-decoration: none;
@@ -165,14 +156,34 @@ footer {
 
 /*divider*/
 
-/*.split {
+.split_chopin {
 	
-	border:0; 
-	height:1px;
-	margin-top: -200px;
-	padding: 2px;
+	
+	border: none; 
+	margin-top: -140px;
+	padding: 15px 0 15px 0;
 
-}*/
+}
+
+.split {
+	margin-bottom: 100px;
+	padding-top: 30px;
+	border: none;
+}
+
+
+/* music players*/
+
+.music_player {
+	margin-bottom: -100px;
+}
+
+.content .row .music_player p {
+	padding: 50px;
+}
+
+
+
 
 
 
