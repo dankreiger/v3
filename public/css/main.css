@@ -147,6 +147,14 @@ code {
 	padding-top: 5px;
 }
 
+.contact li a {
+	color: 	#00B4FF;
+}
+
+.contact li a:hover {
+	color: 	#4E9CB5;
+}
+
 footer {
 	text-align: center;
 	padding: 30px 0px 17px 0px;
@@ -154,6 +162,12 @@ footer {
 
 .footer footer p a {
 	text-decoration: none;
+	color: #00B4FF;
+}
+
+.footer footer p a:hover {
+	text-decoration: none;
+	color: #4E9CB5;
 }
 
 
