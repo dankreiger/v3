@@ -134,6 +134,15 @@ quotes[65]="Don't be so humble - you are not that great.<br><small>Golda Meir</s
 
 quotes[66]="Gesund sein ist so schön, wenn man nicht allein sein muss.<br><small>Sigmund Freud</small>"
 
+quotes[67]="Grace is the beauty of form under the influence of freedom.<br><small>Friedrich Schiller</small>"
+
+quotes[68]="Every true genius is bound to be naive.<br><small>Friedrich Schiller</small>"
+
+quotes[69]="The more refined one is, the more unhappy.<br><small>Anton Chekhov</small>"
+
+quotes[70]="Any idiot can face a crisis - it's day to day living that wears you out.<br><small>Anton Chekhov</small>"
+
+
 
 var whichquote=Math.floor(Math.random()*(quotes.length))
 document.write(quotes[whichquote])
