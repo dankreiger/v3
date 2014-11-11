@@ -100,8 +100,13 @@ pre {
 }
 
 .code_text {
+	margin: -50px 0px -50px 0px;
+}
+
+.code_text {
 	padding: 0px 25px;
 }
+
 
 code {
 	line-height: 1.3;
