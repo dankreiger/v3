@@ -160,17 +160,22 @@ code {
 	color: 	#4E9CB5;
 }
 
-footer {
+.footer footer {
 	text-align: center;
 	padding: 30px 0px 17px 0px;
 }
 
-.footer footer p a {
+.music_footer footer {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+footer p a {
 	text-decoration: none;
 	color: #00B4FF;
 }
 
-.footer footer p a:hover {
+footer p a:hover {
 	text-decoration: none;
 	color: #4E9CB5;
 }
